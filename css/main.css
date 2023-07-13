@@ -1,18 +1,29 @@
 /* CSS styles go here */
 html{
-    background-image: url(../Image);
+    background-image: url(../Images/p\ back.jpg);
     background-size: cover;
     
 } 
-
+.back-image {
+  background-color: ;
+  /* border-radius: 20px; */
+}
 header{
     background-color: rgb(229, 229, 178);
-    border-radius: 75px;
-    border:solid 2px;
+    /* border-radius: 75px; */
+    /* border:solid 2px; */
 
 }
+.c-image {
+  display: grid;
+}
+ table {
+  display: flex;
+  align-items: center;
+ }
+.grid{
 
-
+}
 
  .wrapper{
     max-width: 1200px;
@@ -45,88 +56,83 @@ li a {
 }
 
 /* Middle Section */
-.container {
-    display: flex;
-    align-items: flex-start;
+.grid {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 20px; /* Set the gap size you prefer */
 }
 
+.container {
+  display: flex;
+  align-items: flex-start;
+}
+
+.left,
 .right {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-left: 10px;
-    width: 200px;
-    height: 200px;
-  }
-  
-  img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 10px;
+}
+
+.right img {
+  width: 100px;
+  height: 200px;
+}
+
+.left img {
+  width: 200px;
+  height: 100px;
+}
+
+.txt {
+  grid-column-start: 2;
+  padding-left: 40px;
+}
+
+img {
     width: 200px;
     height: 100px;
-  }
+}
 
-.image 3{
+.right img {
     width: 100px;
-    height: 1000px;
-  }
-
-  .text {
-    margin-left: 400px;
-    align-items: flex-end;
-  }
-
-
-
-
-/* .container {
-    display: flex;
-  }
-
-  .image-column {
-    flex: 0.5;
-  }
-
-  .image-column img {
-    display: block;
-    width: 100%;
-    margin-bottom: 10px;
-  }
-
-  .long-image {
-    flex: 0.5;
-    margin-left: 10px;
-    max-height: 500px;
-  }
-
-  .text-column {
-    flex: 1;
-    margin-left: 10px;
-  } */
-
-
-
-
-
-  .footer_nav{
-
-border-radius: 75px;
-}
-.footer_nav ul{
-    display: flex;
-    flex-direction: row; /* Change flex-direction to row */
-    justify-content: space-evenly;
-    list-style: none;
-    
-    
+    height: 200px;
 }
 
-.footer_nav ul li {
-    
+.c-btn{
+  padding: 10px 10px;
+  text-align: center;
+  font-size: 10px;
+  margin: 6%;
+  border-radius: 20px;
+  background-color: brown;
+  width: 300px;
+  max-width: 100%;
+}
+
+
+.footer_nav {
+  /* border-radius: 75px; */
+}
+.footer_nav ul li{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.m{
+  flex: 1;
+}
+
+.m #logo{
+  float: left;
 }
 
     
 .box{
-    border-radius: 55px;
-    border:solid 2px;
+    /* border-radius: 15px; */
+    /* border:solid 2px; */
     background-color: rgb(229, 229, 178);
     
 }  
@@ -164,3 +170,28 @@ border-radius: 75px;
 
     
 }
+
+form textarea {
+  min-height: 150px;
+  max-height: 150px;
+  height: 150px;
+  resize: none;
+  }
+  
+  .footer_nav ul{
+    display: flex;
+    flex-direction: row; /* Change flex-direction to row */
+    justify-content: space-between;
+    list-style: none;
+    
+}
+  
+  
+  
+  form button {
+  background: none;
+  border: 2px solid black;
+  padding: 1rem;
+  text-transform: uppercase;
+  }
+  
