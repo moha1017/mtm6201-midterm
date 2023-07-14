@@ -8,15 +8,15 @@
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-  <header>
-    <nav class="navbar">
-        <ul>
-            <li>
+  <header role="banner">
+    <nav class="navbar" role="banner">
+        <ul role="list">
+            <li role="list">
                 <a href="index.html"><img alt="logo" src="images/GOLO.svg"
-                width="100" height="100" id="logo"></a>
+                width="100" height="100" id="logo" ></a>
             </li>
-            <li><a href="contact.html">Contact</a></li>
-            <li> <a href="about.html">About</a></li>
+            <li role="listitem"><a href="contact.html">Contact</a></li>
+            <li role="listitem"> <a href="about.html">About</a></li>
         </ul>
       </nav>
     </header>
@@ -25,10 +25,10 @@
         <div class="wrapper">
             <a href="#maincontent">skip to hours &darr;</a>
             <div class="about" action="index.html">
-                <section >
-                  <h2>Our Story</h2>
-                  <p>A Tale as Old as Time</p>
-                  <p>
+                <section role="region">
+                  <h2 role="heading">Our Story</h2>
+                  <p role="text">A Tale as Old as Time</p>
+                  <p role="text">
                         At Flourish & Nourish,
                      we extend a warm and aromatic welcome to all baking enthusiasts and confectionery lovers.
                       As you step into our virtual bakery, get ready to embark on a tantalizing journey filled
@@ -41,7 +41,7 @@
                   </form>
                 </section>
 
-                <section>
+                <section role="region">
                   <img src="Images/crossiants-760_x_760.jpg" alt="Big Image" class="cro-image">
                 </section>
 
@@ -49,15 +49,15 @@
 
 
         </div>
-         <div class="location-hours">
-            <section>
-                <h2>Our Location</h2>
+         <div class="location-hours" role="banner">
+            <section role="region">
+                <h2 role="heading">Our Location</h2>
                 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11215.167259535072!2d-75.7352537!3d45.3530146!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce072e96137cf7%3A0xdee687b732511b7a!2zRGFvIENhZsOp!5e0!3m2!1sen!2sca!4v1689221492187!5m2!1sen!2sca" width="400" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </section>
             <main id="maincontent" role="main"></main>
-            <section>
-                <h2>Opening Hours</h2>
-                <table class="table">
+            <section role="region">
+                <h2 role="heading">Opening Hours</h2>
+                <table class="table" role="table">
                     <tr>
                         <th>Days</th>
                         <th>Hours</th>
@@ -78,18 +78,18 @@
         
     </div>
 </body>
-    <div class="box">
+    <div class="box" role="banner">
 
-      <footer>
-          <nav class="footer_nav">
-              <ul>
+      <footer role="contentinfo">
+          <nav class="footer_nav" role="navigation">
+              <ul role="list">
                   <li class="m">
                       <a href="index.html"><img alt="logo" src="images/GOLO.svg"
                         ></a>
                   </li>
                   
                   <li class="m"><i class="fa-brands fa-snapchat" style="color: #000000;" ></i> 
-                  </p></li>
+                  </li>
                   <li class="m"><i class="fa-brands fa-instagram" style="color: #000000;"></i></li>
                </ul>
           </nav>

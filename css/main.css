@@ -2,6 +2,7 @@
 html{
     background-image: url(../Images/p\ back.jpg);
     background-size: cover;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     
 } 
 
@@ -304,17 +305,6 @@ h1 {
     background-color: lightyellow;
     
 }  
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* desktop version   */
