@@ -4,17 +4,14 @@ html{
     background-size: cover;
     
 } 
-.back-image {
-  background-color: ;
-  /* border-radius: 20px; */
-  
-}
+
 header{
-    background-color: rgb(229, 229, 178);
-    /* border-radius: 75px; */
+    background-color: lightyellow;
+    border-radius: 25px; 
     /* border:solid 2px; */
 
 }
+
 .c-image {
   display: grid;
 }
@@ -22,9 +19,6 @@ header{
   display: flex;
   align-items: center;
  } */
-.grid{
-
-}
 
  .wrapper{
     max-width: 1200px;
@@ -55,7 +49,9 @@ li a {
     color: black;
     text-decoration: none;
 }
+
 /* Home Page */
+
 .Home-page {
   display: flex;
   justify-content: space-between;
@@ -72,77 +68,10 @@ li a {
 .content-image {
   width: 90%;
   height: 50%;
+  border-radius: 20px;
 }
 
-/* Location & Hours */
-.location-hours {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-}
-
-.location-hours > section {
-  flex: 1;
-  box-sizing: border-box;
-  padding: 0 1rem;
-}
-
-.table, iframe {
-  width: 100%;
-}
-
-/* About Page */
-.about {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-}
-
-.about > section {
-  flex: 1;
-  box-sizing: border-box;
-  padding: 0 1rem;
-  text-align: center;
-}
-
-.cro-image {
-  width: 90%;
-  height: 50%;
-}
-
-
-/* animations  */
-.fade{
-  opacity: 0;
-      animation: fade-animation 1s ease-in forwards;
-}
-@keyframes fade-animation {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-@keyframes scale {
-  0% {
-    transform: scale(1);
-  }
-  50% {
-    transform: scale(1.6);
-  }
-  100% {
-    transform: scale(1);
-  }
-}
-
-h1 {
-  animation: scale 2s infinite;
-}
-
-
-/* Middle Section */
+/* Middle Section Home */
 .grid {
   display: grid;
   grid-template-columns: auto auto;
@@ -212,6 +141,27 @@ img {
   max-width: 100%;
 }
 
+
+/* About Page */
+
+.about {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.about > section {
+  flex: 1;
+  box-sizing: border-box;
+  padding: 0 1rem;
+  text-align: center;
+}
+
+.cro-image {
+  width: 90%;
+  height: 50%;
+}
+
 .a-btn{
   padding: 10px 10px;
   justify-content: center;
@@ -224,31 +174,6 @@ img {
   max-width: 100%;
   
 }
-
-/* Contact */
-form input,
-form textarea {
-display: block;
-width: 50%;
-margin-bottom: 1rem;
-padding: .23rem 1rem;
-justify-content: center;
-}
-
-/* form textarea {
-min-height: 150px;
-max-height: 150px;
-height: 150px;
-resize: none;
-} */
-
-/* form button {
-background: none;
-border: 2px solid black;
-padding: 1rem;
-text-transform: uppercase;
-justify-content: center;
-} */
 
 /* About table */
 table {
@@ -267,9 +192,90 @@ th {
   background-color: #f2f2f2;
 }
 
-/* tr:nth-child(even) {
-  background-color: ;
-} */
+/* Location & Hours */
+
+.location-hours {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.location-hours > section {
+  flex: 1;
+  box-sizing: border-box;
+  padding: 0 1rem;
+}
+
+.table, iframe {
+  width: 100%;
+}
+
+
+/* animations  */
+.fade{
+  opacity: 0;
+      animation: fade-animation 1s ease-in forwards;
+}
+
+/* Contact */
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+form input,
+form textarea {
+  width: 50%;
+  margin-bottom: 1rem;
+  padding: 0.23rem 1rem;
+  text-align: center;
+}
+
+form textarea {
+  min-height: 150px;
+  max-height: 150px;
+  height: 150px;
+  resize: none;
+}
+
+form button {
+  background: none;
+  border: 2px solid black;
+  padding: 1rem;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+
+
+
+@keyframes fade-animation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes scale {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.6);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+h1 {
+  animation: scale 2s infinite;
+}
 
 
 .footer_nav {
@@ -293,9 +299,9 @@ th {
   display: ;
 }    
 .box{
-    /* border-radius: 15px; */
+     border-radius: 15px; 
     /* border:solid 2px; */
-    background-color: rgb(229, 229, 178);
+    background-color: lightyellow;
     
 }  
 
